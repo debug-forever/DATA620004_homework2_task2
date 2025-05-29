@@ -14,4 +14,6 @@
 
 以上操作会自动生成work_dirs文件夹并记录tensorboard日志和每个epoch的模型，也可直接通过https://pan.baidu.com/s/1gmjetgNOsTre6pEuo22b4w?pwd=jk6a 下载训练好的模型，将work_dirs文件架解压在根目录下。
 
-6.数据可视化：修改tools/visualize_with_segmentation.py脚本中的图片路径信息，运行python tools/visualize_with_segmentation.py脚本，可视化输出保存在检测图片同级文件夹下。
+6.数据可视化：
+在根目录运行 tensorboard --logdir=work_dirs 开启 tensorboard 可视化界面
+修改tools/visualize_with_segmentation.py脚本中的图片路径信息，运行python tools/visualize_with_segmentation.py脚本，可视化输出保存在检测图片同级文件夹下。
