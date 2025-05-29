@@ -1,4 +1,4 @@
-这是DATA620004_homework2_task2的作业仓库
+这是DATA620004_homework2_task2的作业仓库，在 https://github.com/open-mmlab/mmdetection 基础上修改而来。
 
 运行方式：
 
